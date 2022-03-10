@@ -1,9 +1,12 @@
 package Calculatrice;
 
+import java.io.IOException;
 
+import Utils.properties;
 
 public class Controller {
 	
+	properties prop = new properties();
 	
 	private double nombre1;
 	private double nombre2;
@@ -17,11 +20,11 @@ public class Controller {
 	Calculatrice c = new Calculatrice();
 
 		
-	public double verifier() {
+	public double verifier() throws IOException {
 
 	if (operateur.equals("/")) {
 		if(nombre2==0) {
-			System.out.println("VOUS NE POUVEZ PAS DIVISER PAR 0");
+			prop.afficher("err0");
 		    return 0;
 		}
 		else {
@@ -40,7 +43,7 @@ public class Controller {
 		return c.division(nombre1,nombre2);
 	}
 	
-	System.out.println("l'opérateur n'est pas valide");
+	prop.afficher("errop");
 	return 0;
 	
 	

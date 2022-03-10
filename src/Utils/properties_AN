@@ -1,0 +1,6 @@
+title:Calculatrice
+nombre1:Enter the first number
+nombre2:Enter the second number
+operateur:Enter the operator
+erreur0:You can't divide by 0
+erreurop:The operator is not valid
