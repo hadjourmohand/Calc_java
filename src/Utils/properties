@@ -1,0 +1,8 @@
+langue:FR
+title:Calculatrice
+nombre1:veuillez entrez le premier nombre
+nombre2:Veuillez entrez le second nombre
+operateur:Veuillez entrez l'operateur
+erreur0:VOUS NE POUVEZ PAS DIVISER PAR 0
+erreurop:L'opérateur n'est pas valide
+result:Le resultat est 
